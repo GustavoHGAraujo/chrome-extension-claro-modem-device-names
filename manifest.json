@@ -1,0 +1,17 @@
+{
+    "name": "Claro LAN Devices Renamer",
+    "description": "Allows to give names to LAN Devices on Claro's Modem webpage",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "http://192.168.0.1/*",
+                "https://192.168.0.1/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+            }
+      ]
+}
